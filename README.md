@@ -7,13 +7,13 @@ This sample is a swift project with a UIViewController created for you to start.
 ## Getting Started
 
 The challenge for you is to fetch the Rick and Morty API
-
+````
 {
   "characters": "https://rickandmortyapi.com/api/character",
   "locations": "https://rickandmortyapi.com/api/location",
   "episodes": "https://rickandmortyapi.com/api/episode"
 }
-
+````
 To fetch the first page of the characters and modify the app is needed to show in a list the name of the character and the image.
 All of this in the background thread. Only when the network response is ready the work should return to the main thread to update the UI.
 
